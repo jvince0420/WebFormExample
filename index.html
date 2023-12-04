@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Web form</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mywidth{
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="w3-text-red w3-black">Sample Web form</h1>
+    <form action="" class="w3-border w3-border-red mywidth">
+        <label for="student_name">Student name:</label>
+        <input type="text" name="student_name"  id="student_name" placeholder="input student name">
+
+        <p>Sex</p>
+        <input type="radio" name="Sex" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="Sex" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="Sex" id="" value="PreferNTS">
+        <label for="PreferNTS">prefer not to say</label>
+
+        <p>Major</p>
+        <input type="checkbox" name="Major" id="AT" value="AT">
+        <label for="AT">Automotive Tech</label>
+        <br>
+        <input type="checkbox" name="Major" id="CT" value="CT">
+        <label for="CT">Computer Tech</label>
+        <br>
+        <input type="checkbox" name="Major" id="ELT" value="ELT">
+        <label for="ELT">Electrical Tech</label>
+        <br>
+        <input type="checkbox" name="Major" id="EXT" value="EXT">
+        <label for="ELT">Electronics Tech</label>
+
+        <p></p><label for="subjects">Subject</label>
+        <select name="subjects" id="subjects">
+            <option value="STS 01">Science, Tech and Society</option>
+            <option value="STS 01">Modern Math</option>
+            <option value="STS 01">Programming</option>
+            <option value="COMM 01">Purposive Communication</option>
+        </select>
+
+        <p></p><label for="Calendar">Calendar</label>
+        <input type="date" id="Calendar" name="Calendar">
+
+        <p></p><label for="mypass">Password</label>
+        <input type="password" name="mypass" id="mypass" placeholder="input your password">
+
+        <p></p><label for="submit"></label>
+        <input type="submit" id="submit" name="submit">
+        <label for="cancel"></label>
+        <input type="button" name="submit" id="submit" value="cancel"> 
+    </form>
+</body>
+</html>
